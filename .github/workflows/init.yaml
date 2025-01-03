@@ -4,7 +4,7 @@ name: Placeholder
 
 on:
   workflow_run:
-    workflows: ["Paso 0, Inicializar repo"]
+    workflows: ["Inicializar_repo"]
     types:
       - completed
 
