@@ -2,7 +2,11 @@
 
 name: Placeholder
 
-on: push
+on:
+  workflow_run:
+    workflows: ["Paso 0, Inicializar repo"]
+    types:
+      - completed
 
 jobs:
   init:
